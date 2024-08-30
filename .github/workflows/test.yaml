@@ -3,8 +3,4 @@ on:
 
 jobs:
   test:
-    runs-on: ubuntu-latest
-    steps:
-      - name: test
-        id: test
-        uses: smarak-org/workflows/.github/workflows/reuse.yaml@main
+    uses: smarak-org/workflows/.github/workflows/reuse.yaml@main
