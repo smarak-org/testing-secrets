@@ -4,3 +4,4 @@ on:
 jobs:
   test:
     uses: smarak-org/workflows/.github/workflows/reuse.yaml@main
+    secrets: inherit
